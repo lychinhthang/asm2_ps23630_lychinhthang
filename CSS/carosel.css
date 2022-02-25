@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+i{
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.next{
+    top: 50%;
+    right: 0px;
+}
+.prev{
+    top: 50%;
+    left: 0px;
+}
+h2{
+    position: absolute;
+    color: red;
+    padding: 20px;
+    background-color: aliceblue;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.8s ease;
+}
+h2:hover{
+    background-color: rgb(206, 175, 175);
+    cursor: pointer;
+}

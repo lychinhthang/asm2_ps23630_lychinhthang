@@ -1,0 +1,44 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-bg-color: #000000;
+    --red-color: #FF385C;
+    --purple-color: #ac5ebb;
+    --text-color: #222222;
+    --white-color: #FFFF;
+    --hover-2-color: #EBEBEB;
+    --des-color: #484848;
+    --hover-color: #262626;
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+    --tran-06: all 1s ease;
+    --hover-nav-color: #fb3359;
+}
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.grid {
+    width: 90%;
+    margin: 0 auto;
+}
+.grid__full {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}

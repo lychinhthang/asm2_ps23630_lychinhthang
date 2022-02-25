@@ -1,0 +1,458 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 0 4px 2px #ccc;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 4;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+}
+.header__items-link img {
+    height: 30px;
+}
+.header__items {
+    display: inline-block;
+    align-items: center;
+}
+.header__items-icon:hover,
+.header__items-own:hover {
+    background: #F2F2F2;
+    cursor: pointer;
+}
+.header__items-icon {
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 50%;
+    
+}
+.header__items-own{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding:  15px;
+    border-radius: 20px;
+}
+.header__items-home{
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.header__items-home-icon{
+    font-size: 2.3rem;
+    color: #717171;
+    cursor: pointer;
+}
+.header__items-home-icon:first-child {
+    margin-top: 3px;
+}
+.header__items-home-icon-2 {
+    font-size: 3rem;
+}
+.header__title {
+    margin-top: 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.header__title span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.header__title-layout-1{
+    display: flex;
+}
+.header__navbar-title{
+    position: relative;
+    width: 100%;
+}
+.title-about-link a {
+    text-decoration: none;
+}
+.header__navbar-title:first-child {
+    padding-right: 5px;
+}
+.header__navbar-title:nth-child(2) {
+    padding-left: 5px;
+}
+.navbar-title-img{
+    width: 100%;
+    height: 334px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.navbar-title-about {
+    position: absolute;
+    top: 0;
+    color: var(--white-color);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.tilte-about-name {
+    font-size: 1rem;
+}
+.title-about-para {
+    font-size: 2.2rem;
+    margin-top: 10px;
+    line-height: 2.4rem;
+    font-weight: 600;
+}
+.title-about-link{
+    margin-top: 100px;
+}
+.title-about-link span {
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background: var(--white-color);
+    color: var(--text-color);
+    border-radius: 5px;
+    transition: var(--tran-02);
+}
+.title-about-link span:hover {
+    background-color: var(--hover-2-color);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* phần layout2 ============== */
+.layout-2 {
+    display: flex;
+}
+.layout-2-link a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.layout-2-link {
+    width: 100%;
+    cursor: pointer;
+}
+.layout-2-link:first-child {
+    margin-right: 6px;
+}
+.layout-2-link:nth-child(2) {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.layout-2-link:nth-child(3) {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.layout-2-link:nth-child(4) {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.layout-2-link:last-child {
+    margin-left: 6px;
+}
+.layout-2-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.layout-2-globe{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.layout-2-globe i{
+    font-size: 1.5rem;
+    margin-top: -2px;
+    color: var(--red-color);
+    padding-right: 4px;
+}
+.layout-2-cost {
+    font-size: 1.2rem;
+    padding-right: 1px;
+
+}
+.layout-2-glob {
+    font-size: 1.2rem;
+    color: #484848;
+}
+
+.layout-2-country {
+    font-size: 1.2rem;
+    color: #484848;
+}
+.doc-padding {
+    display: flex;
+    width: 10px;
+    height: 12px;
+    position: relative;
+    justify-content: center;
+}
+.doc-padding span {
+    position: absolute;
+    right: 4px;
+    margin-top: -1px;
+}
+.layout-2-desses{
+    font-size: 1.4rem;
+}
+.layout-2-footer{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+.layout-2-footer-1{
+    font-size: 1.5rem;
+    color: var(--primary-bg-color);
+    font-weight: 600;
+}
+.layout-2-footer-2{
+    padding-left: 5px;
+    font-size: 1.2rem;
+}
+
+
+/* Phần layout thứ 3====================== */
+.layout-3 {
+    display:flex ;
+}
+.layout-3-link:nth-child(1) {
+    margin-right: 10px;
+}
+.layout-3-link:nth-child(2) {
+    margin-right: 10px;
+}
+.layout-3-link {
+    border: 1px solid #ccc;
+    height: 190px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+}
+.layout-3-info {
+    padding-left: 10px;
+    width: 100%px;
+}
+.layout-3-link-img {
+    width: 35%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.layout-3-likes{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+}
+.layout-3-likes i {
+    font-size: 2rem;
+}
+.layout-3-glo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.layout-3-glo i {
+    font-size: 1.2rem;
+    padding-right: 2px;
+    color: var(--red-color);
+
+}
+.layout-3-glo-rate {
+    font-size: 1.2rem;
+    padding-right: 2px;
+}
+.layout-3-glo-rating{
+    color: var(--des-color);
+    font-size: 1.2rem;
+}
+.doc-padding {
+    height: 12px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: -3px;
+}
+.doc-padding span{
+    color: var(--des-color);
+    font-size: 1.2rem;
+}
+.layout-3-glo-name{
+    color: var(--des-color);
+    font-size: 1rem;
+}
+.layout-3-name{
+    font-size: 1.4rem;
+    color: #484848;
+}
+.layout-3-near{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+
+}
+.layout-3-near-cost {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 600;
+    padding-right: 2px;
+}
+.layout-3-near-hu{
+    font-size: 1.2rem;
+}
+.layout-3-footer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.hours{
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 6px;
+    transition: var(--tran-02);
+}
+.hours:hover {
+    background: var(--red-color);
+    color: var(--white-color);
+}
+.layout-2-link--2 {
+    border: 1px solid #ccc;
+    height: 256px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout-2-link-about {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    font-weight: 600;
+}
+.layout-2-link--2 span {
+    margin-right: 40px;
+    font-size: 1.5rem;
+}
+.layout-2-link--2  i {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.layout-4--2:nth-child(1),
+.layout-4--2:nth-child(2) {
+    margin-bottom: 20px;
+}
+.container__footer {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container__button button {
+    font-size: 2rem;
+    color: var(--white-color);
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--primary-bg-color);
+    transition: var(--tran-02);
+}
+.container__button button:hover {
+    cursor: pointer;
+    background-color: var(--red-color);
+}
+/* ==== phần  FOOTER===== */
+
+
+.footer {
+    margin-top: 50px;
+    background-color: #F7F7F7;
+}
+.footer-footer-menu {
+    display: flex;
+}
+.footer-list{
+    width: 400px;
+}
+.footer-list{
+    margin-top: 40px;
+}
+.footer-items{
+    padding-bottom: 12px;
+    line-height: 1.7rem;
+    font-size: 1.5rem;
+}
+.footer-infor-link{
+    text-decoration: none;
+    color: var(--text-color);
+    padding-right: 6px;
+}
+.footer-items a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    color: var(--text-color);
+}
+.footer-items-link {
+  position: relative;
+  left: 0;
+  transition-duration:0.2s;
+}
+.footer-items-link:hover {
+    color: var(--hover-nav-color);
+    left: 4px;
+}
+.footer-infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.footer-infor-items {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.footer-infor-list--font-1 {
+    font-size: .8rem;
+}
+.footer-margin-2 {
+     margin-right: 30px;
+}
+.footer-aligh {
+    display: flex;
+    align-items: center;
+}
+.footer-aligh i {
+    margin-top: -2px;
+    margin-right: 6px;
+    font-size: 2rem;
+}
+.footer-aligh span {
+    margin-right: 20px;
+}
+.footer-infor-link-icon {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+.footer-infor-link i {
+    padding-right: 10px;
+    font-size: 2rem;
+}
+.footer-items:first-child {
+    font-weight: 600;
+}
